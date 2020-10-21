@@ -69,7 +69,7 @@ spec:
               value: {{ .Values.logLevel | quote }}
             {{- range .Values.env }}
             - name: {{ .name }}
-              value: {{ .value }}
+              value: {{ .value | quote }}
             {{- end }}            
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
