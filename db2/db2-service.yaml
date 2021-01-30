@@ -2,7 +2,6 @@ kind: Service
 apiVersion: v1
 metadata:
   name: db2
-  namespace: db2
   labels:
     app: db2
 spec:
