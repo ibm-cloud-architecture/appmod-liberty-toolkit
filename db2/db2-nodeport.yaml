@@ -1,7 +1,6 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: db2-nodeport
   namespace: db2
   labels:
     app: db2
