@@ -50,7 +50,7 @@ spec:
               protocol: TCP
           imagePullPolicy: Always
           terminationMessagePolicy: File
-          image: vandepol/db2-cos
+          image: quay.io/ibmgaragecloud/db2-cos
       restartPolicy: Always
       terminationGracePeriodSeconds: 30
       dnsPolicy: ClusterFirst
